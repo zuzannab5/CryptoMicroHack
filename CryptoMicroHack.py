@@ -28,6 +28,7 @@ class App():
             pass
         elif level == 4:
             self.__open_zadanie("Dodatki\\Zadanie_4\\task.pdf")
+            print("Do rozwiązania potrzebny będzie plik /Dodatki/Zadanie_4/aes.py")
             flag = "\\x81"
         elif level == 5:
             pass

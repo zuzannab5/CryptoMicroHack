@@ -1,14 +1,10 @@
 
-
-def example():
-    print("2^p = 1, ile wynosi p? ")
-    flag = "CRYPTO"
-    return flag
-
+import subprocess
+import sys
 
 class App():
     def __init__(self):
-        self.levels = 5
+        self.levels = 6
 
     def __wait_for_flag(self, flag):
         prompt = "Podaj flagę:\n"
@@ -18,19 +14,22 @@ class App():
                 print("Udało ci się :) !")
                 break
             print("Podałeś złą flagę :( , spróbuj ponownie!")
+    def __open_zadanie(self, path_to_task):
+        subprocess.Popen([path_to_task],shell=True)
 
     def __zadania(self, level:int):
         flag = ""
 
-        if level == 0:
-            flag = example()
-        elif level == 1:
+        if level == 1:
             pass
         elif level == 2:
             pass
         elif level == 3:
             pass
         elif level == 4:
+            self.__open_zadanie("Dodatki\\Zadanie_4\\task.pdf")
+            flag = "\\x81"
+        elif level == 5:
             pass
         self.__wait_for_flag(flag)
         
@@ -38,10 +37,12 @@ class App():
         with open("logo.txt", "r", encoding="utf-8") as f:
             logo = f.read()
         print(logo)
-        for level in range(self.levels):
+        _ = input()
+        
+        for level in range(1, self.levels):
             print()
             print("---------------------------------------------")
-            print(f"Zapnij pasy! Zaczynamy zadanie {level + 1}!")
+            print(f"Zapnij pasy! Zaczynamy zadanie {level}!")
             self.__zadania(level)
             print("---------------------------------------------")
         print("Gratulacje, udało ci się zrobić wszystkie zadania :)!")

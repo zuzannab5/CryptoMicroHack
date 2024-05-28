@@ -15,3 +15,12 @@
                                 CryptoMicroHack
 
 ⋆꙳•❅ ☃ *‧ ‧* ⛇ ❆ ₊⋆⋆꙳•❅ ☃ *‧ ‧* ⛇ ❆ ₊⋆⋆꙳•❅ ☃ *‧ ‧* ⛇ ❆ ₊⋆⋆꙳•❅ ☃ *‧ ‧* ⛇ ❆ ₊⋆⋆꙳•❅ ☃ *‧ ‧* 
+
+Przed tobą 5 zadań z zakresu kryptografi i podobnych dziedzin.
+
+Każde zadanie znajduje się w pliku .pdf. 
+Przechodząc do kolejnego zadania plik powienien otworzyć się w dodatkowym oknie.
+Jeśli nie widzisz otwartego pliku, możesz go znaleźć w ścieżce "Dodatki/Zadanie_i/task.pdf", gdzie i odpowiada numerowi zadania.
+
+Jeśli rozumiesz zasady i jesteś gotowy naciśnij ENTER.
+

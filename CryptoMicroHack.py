@@ -35,7 +35,7 @@ class App():
             self.__open_zadanie("Dodatki\\Zadanie_1\\task.pdf")
             flag = "f9aa6798eb46c7e2da6189473d64f80350fd929d8274d225aa435d4ed95d2f43"
         elif level == 2:
-            pass
+            flag = "flaga"
         elif level == 3:
             pass
         elif level == 4:

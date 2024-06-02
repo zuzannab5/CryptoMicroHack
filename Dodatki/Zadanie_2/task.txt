@@ -1,6 +1,0 @@
-Zadanie 4
-
-Temat: kody korekcyjne.
-
-Niech C będzie (4,2) kodem RS w ciele GF(5)
-Odkoduj wiadomość (0,0,0,2).

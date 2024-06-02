@@ -21,7 +21,8 @@ class App():
         flag = ""
 
         if level == 1:
-            pass
+            self.__open_zadanie("Dodatki\\Zadanie_1\\task.pdf")
+            flag = "Snowman jest super"
         elif level == 2:
             pass
         elif level == 3:

@@ -43,7 +43,8 @@ class App():
             print("Do rozwiązania potrzebny będzie plik /Dodatki/Zadanie_4/aes.py")
             flag = "56b9ba20a36f03233c6d8b8c934a4b24ed361007e6a881847481bfc47cbaefd9"
         elif level == 5:
-            pass
+             self.__open_zadanie("Dodatki\\Zadanie_5\\task.pdf")
+            flag = "c72777c0da0231f1fc9a3fd753fec3a73543b3ae01aa67c259a9a643c4ae4e5e"
         self.__wait_for_flag(flag)
         
     def run(self):
